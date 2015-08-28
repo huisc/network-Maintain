@@ -1,0 +1,922 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- saved from url=(0110)https://cdn.rawgit.com/kulisu/380cce9c839ef64950ad/raw/972a93593ace4f86e84390e9e2fb24067e255afc/OmniFocus.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title></title>
+  
+  <style type="text/css">
+/* */
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-size: 8pt;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+	color: #333333;
+} 
+
+
+
+H1, h2 {
+	background: #f0f0f0;
+	padding: 5px 10px;
+	border-radius: 3px;
+	margin-bottom: .5em;
+	clear: both;
+}
+h1 {
+	font-size: 1.5em;
+}
+h2 {
+	font-size: 1.2em;
+	clear: both;
+}
+h3 {
+	background: #f0f0f0;
+	padding: 2px 10px;
+	font-size: .9em;
+	font-weight: normal;
+	margin-bottom: .5em;
+}
+h4 {
+	font-size: 1.2em;
+	font-weight: normal;
+	width: auto;
+}
+h4.projecttitle {
+	font-weight: bold;
+}
+.due, .deferred {
+	
+}
+.actionlist {
+	
+}
+.action {
+	margin: 0em 1em 1em 1em;
+	list-style-type: none;
+	clear: both; 
+	 overflow: auto;
+}
+.actionlist ul {
+	margin: 0em 0em 0em 1em;
+	list-style-type: none;	
+	clear: both;
+	
+}
+.actionlist ul li {
+	margin-right: 0;
+}
+.actioninfo {
+	float: left;
+	width: calc(100% - 35pt);
+	margin-bottom: 1em;
+}
+
+.checkmark {
+	font-size: 20pt;
+	float: right;
+	padding-left: .2em;
+	width: 25pt;
+
+}
+
+.count, .printdate, .projectcount {
+	font-size: 9pt;
+	font-weight: normal;
+	margin-top: .25em;
+
+}
+.count, .printdate {
+	float: right;
+	
+
+}
+.projectcount ul {
+	list-style: disc;
+	list-style-position: inside;
+	margin: 0;
+	
+}
+.projectcount ul > li:first-of-type {
+	list-style: none;
+}
+.projectcount ul li {
+	float: left;
+	margin-right: .5em;
+	
+}
+.projectcount~.context, .projectcount~.project  {
+	clear: both;
+} 
+.context, .project {
+	float: left;
+	
+
+}
+.dates {
+	float: right;	
+}
+.context, .project, .dates, .notes, .projectcount {
+	color: #999999;
+	font-size: 8pt;
+
+}
+
+
+.dates {
+	float: right;
+	
+}
+
+.notes {
+	clear: both;
+	padding-top: .3em;
+        white-space: pre-wrap;
+}
+
+.calendar {
+	clear: both;
+	font-size: 8pt;
+	margin-bottom: 20px;
+	background: #f0f0f0;
+	float: left;	
+	border-radius: 3px;
+
+}
+.caltitle {
+	text-decoration: underline;
+	margin-bottom: .5em;
+}
+.calendar ul {
+
+	padding: 10px;
+
+}
+.calendar ul li {
+	margin-bottom: .3em;
+	margin-left: .3em;
+	list-style-type: none;
+
+}
+.calendar span.time {
+	width: 22ex;
+	display: inline-block;
+
+}
+
+@media print  
+{
+    body {
+    	color: #000000;
+    } 
+    
+    div{
+        page-break-inside: avoid;
+    }
+}
+</style>
+<style id="style-1-cropbar-clipper">/* Copyright 2014 Evernote Corporation. All rights reserved. */
+.en-markup-crop-options {
+    top: 18px !important;
+    left: 50% !important;
+    margin-left: -100px !important;
+    width: 200px !important;
+    border: 2px rgba(255,255,255,.38) solid !important;
+    border-radius: 4px !important;
+}
+
+.en-markup-crop-options div div:first-of-type {
+    margin-left: 0px !important;
+}
+</style></head>
+<body waid71fa0d88-5390-4b5b-a2f4-e45fa93d85e2="SA password protect entry checker"><!-- OmniFocus&nbsp;2.1.3 -->
+<div id="docheader">
+<!--<h1>OmniFocus: 项目 <span class="printdate">已打印: 2015/6/26 10:25</span></h1>-->
+</div>
+<ul class="actionlist">
+<h2>2015-08-29 例行維護 <span class="count">没有可用项</span><div class="notes"><p>本次例行維護將由 Jacky 和 Sean一起執行</p></div>
+</h2>
+<ul class="actionlist">
+<li class="action">
+<div class="actioninfo">
+<h4>技術服務部</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<ul class="actionlist">
+<li class="action">
+<div class="actioninfo">
+<h4>Hardwares</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<ul class="actionlist">
+<li class="action">
+<div class="actioninfo">
+<h4>CPE: Archer C7 v2</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<ul class="actionlist">
+<li class="action">
+<div class="actioninfo">
+<h4>韌體更新</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<li class="action">
+<div class="actioninfo">
+<h4>設定檢視</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<li class="action">
+<div class="actioninfo">
+<h4>密碼修改</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<li class="action">
+<div class="actioninfo">
+<h4>設定備份</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+</ul>
+<li class="action">
+<div class="actioninfo">
+<h4>NAS: Synology DS415+</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<ul class="actionlist">
+<li class="action">
+<div class="actioninfo">
+<h4>系統更新</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<li class="action">
+<div class="actioninfo">
+<h4>套件更新</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<li class="action">
+<div class="actioninfo">
+<h4>設定檢視</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<li class="action">
+<div class="actioninfo">
+<h4>密碼修改</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<li class="action">
+<div class="actioninfo">
+<h4>設定備份</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<li class="action">
+<div class="actioninfo">
+<h4>紀錄稽核</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+<div class="notes"><p>匯出本年度八月份檔案存取之紀錄以供內部稽核</p></div>
+</div>
+</li>
+</ul>
+<li class="action">
+<div class="actioninfo">
+<h4>PCs: VMware vSphere</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<ul class="actionlist">
+<li class="action">
+<div class="actioninfo">
+<h4>系統更新</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<li class="action">
+<!--<div class="checkmark">✓</div>-->
+<div class="actioninfo">
+<h4>設定檢視</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<li class="action">
+<div class="actioninfo">
+<h4>密碼修改</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<li class="action">
+<div class="actioninfo">
+<h4>設定備份</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+</ul>
+<li class="action">
+<div class="actioninfo">
+<h4>CAM: D-Link DCS-5020L</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<ul class="actionlist">
+<li class="action">
+<div class="actioninfo">
+<h4>韌體更新</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<li class="action">
+<div class="actioninfo">
+<h4>設定檢視</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<li class="action">
+<div class="actioninfo">
+<h4>密碼修改</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<li class="action">
+<div class="actioninfo">
+<h4>設定備份</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+</ul>
+</ul>
+<li class="action">
+<div class="actioninfo">
+<h4>Softwares</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<ul class="actionlist">
+<li class="action">
+<div class="actioninfo">
+<h4>Guest VMs</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<ul class="actionlist">
+<li class="action">
+<div class="actioninfo">
+<h4>Services</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<ul class="actionlist">
+<li class="action">
+<div class="actioninfo">
+<h4>pfSense Firewall</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<ul class="actionlist">
+<li class="action">
+<div class="actioninfo">
+<h4>系統更新</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<li class="action">
+<div class="actioninfo">
+<h4>套件更新</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<li class="action">
+<div class="actioninfo">
+<h4>設定檢視</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<li class="action">
+<div class="actioninfo">
+<h4>密碼修改</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<li class="action">
+<div class="actioninfo">
+<h4>設定備份</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<li class="action">
+<div class="actioninfo">
+<h4>快照管理</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+</ul>
+<li class="action">
+<div class="actioninfo">
+<h4>vCenter Server</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<ul class="actionlist">
+<li class="action">
+<div class="actioninfo">
+<h4>系統更新</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<li class="action">
+<div class="actioninfo">
+<h4>設定檢視</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<li class="action">
+<div class="actioninfo">
+<h4>密碼修改</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<li class="action">
+<div class="actioninfo">
+<h4>設定備份</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<li class="action">
+<div class="actioninfo">
+<h4>快照管理</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+</ul>
+<li class="action">
+<div class="actioninfo">
+<h4>Others</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<ul class="actionlist">
+<li class="action">
+<div class="actioninfo">
+<h4>系統更新</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+<div class="notes"><p>新版本：Dradis Professional v1.12</p></div>
+</div>
+</li>
+<li class="action">
+<div class="actioninfo">
+<h4>設定檢視</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<li class="action">
+<div class="actioninfo">
+<h4>密碼修改</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<li class="action">
+<div class="actioninfo">
+<h4>設定備份</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<li class="action">
+<div class="actioninfo">
+<h4>快照管理</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+</ul>
+</ul>
+<li class="action">
+<div class="actioninfo">
+<h4>Testing</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<ul class="actionlist">
+<li class="action">
+<div class="actioninfo">
+<h4>系統更新</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<li class="action">
+<div class="actioninfo">
+<h4>軟體更新</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<li class="action">
+<!--<div class="checkmark">✓</div>-->
+<div class="actioninfo">
+<h4>設定檢視</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<li class="action">
+<!--<div class="checkmark">✓</div>-->
+<div class="actioninfo">
+<h4>密碼修改</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<li class="action">
+<!--<div class="checkmark">✓</div>-->
+<div class="actioninfo">
+<h4>設定備份</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<li class="action">
+<div class="actioninfo">
+<h4>快照管理</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+</ul>
+</ul>
+</ul>
+</ul>
+<li class="action">
+<div class="actioninfo">
+<h4>公共網路區</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<ul class="actionlist">
+<li class="action">
+<div class="actioninfo">
+<h4>Hardwares</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<ul class="actionlist">
+<li class="action">
+<div class="actioninfo">
+<h4>VTU-R: D-Link DSL-6740C</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<ul class="actionlist">
+<li class="action">
+<!--<div class="checkmark">✓</div>-->
+<div class="actioninfo">
+<h4>韌體更新</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<li class="action">
+<div class="actioninfo">
+<h4>設定檢視</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<li class="action">
+<div class="actioninfo">
+<h4>設定備份</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+</ul>
+<li class="action">
+<div class="actioninfo">
+<h4>VTU-R: ZyXEL P-872HA</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<ul class="actionlist">
+<li class="action">
+<!--<div class="checkmark">✓</div>-->
+<div class="actioninfo">
+<h4>韌體更新</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<li class="action">
+<div class="actioninfo">
+<h4>設定檢視</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<li class="action">
+<div class="actioninfo">
+<h4>設定備份</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+</ul>
+<li class="action">
+<div class="actioninfo">
+<h4>CPE: Buffalo WZR-HP-G300NH2</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<ul class="actionlist">
+<li class="action">
+<!--<div class="checkmark">✓</div>-->
+<div class="actioninfo">
+<h4>韌體更新</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<li class="action">
+<div class="actioninfo">
+<h4>設定檢視</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<li class="action">
+<div class="actioninfo">
+<h4>設定備份</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+</ul>
+<li class="action">
+<div class="actioninfo">
+<h4>CPE: ZyXEL ZyWALL 35 UTM</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<ul class="actionlist">
+<li class="action">
+<!--<div class="checkmark">✓</div>-->
+<div class="actioninfo">
+<h4>韌體更新</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<li class="action">
+<div class="actioninfo">
+<h4>設定檢視</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<li class="action">
+<div class="actioninfo">
+<h4>設定備份</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+</ul>
+<li class="action">
+<div class="actioninfo">
+<h4>PCs: Virtual Services</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<ul class="actionlist">
+<li class="action">
+<div class="actioninfo">
+<h4>系統更新</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<li class="action">
+<div class="actioninfo">
+<h4>軟體更新</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<li class="action">
+<div class="actioninfo">
+<h4>設定檢視</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+</ul>
+<li class="action">
+<div class="checkmark">✓</div>
+<div class="actioninfo">
+<h4>NAS: Synology DS415+</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+<div class="notes"><p>非主要保管人/維護者, 故不執行定期維護</p></div>
+</div>
+</li>
+<ul class="actionlist">
+<li class="action">
+<div class="checkmark">✓</div>
+<div class="actioninfo">
+<h4>系統更新</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<li class="action">
+<div class="checkmark">✓</div>
+<div class="actioninfo">
+<h4>套件更新</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<li class="action">
+<div class="checkmark">✓</div>
+<div class="actioninfo">
+<h4>設定檢視</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<li class="action">
+<div class="checkmark">✓</div>
+<div class="actioninfo">
+<h4>密碼修改</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<li class="action">
+<div class="checkmark">✓</div>
+<div class="actioninfo">
+<h4>設定備份</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+</ul>
+<li class="action">
+<div class="checkmark">✓</div>
+<div class="actioninfo">
+<h4>CAM: Panasonic BL-C131</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+<div class="notes"><p>同上述 NAS</p></div>
+</div>
+</li>
+<ul class="actionlist">
+<li class="action">
+<div class="checkmark">✓</div>
+<div class="actioninfo">
+<h4>韌體更新</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<li class="action">
+<div class="checkmark">✓</div>
+<div class="actioninfo">
+<h4>設定檢視</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<li class="action">
+<div class="checkmark">✓</div>
+<div class="actioninfo">
+<h4>密碼修改</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<li class="action">
+<div class="checkmark">✓</div>
+<div class="actioninfo">
+<h4>設定備份</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+</ul>
+</ul>
+<li class="action">
+<div class="actioninfo">
+<h4>Softwares</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<ul class="actionlist">
+<li class="action">
+<div class="actioninfo">
+<h4>Guest VMs</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<ul class="actionlist">
+<li class="action">
+<div class="actioninfo">
+<h4>Fourm</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<ul class="actionlist">
+<li class="action">
+<div class="actioninfo">
+<h4>系統更新</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<li class="action">
+<div class="actioninfo">
+<h4>軟體更新</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<li class="action">
+<div class="actioninfo">
+<h4>設定檢視</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<li class="action">
+<div class="actioninfo">
+<h4>設定備份</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<li class="action">
+<div class="actioninfo">
+<h4>快照備份</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+</ul>
+<li class="action">
+<div class="actioninfo">
+<h4>Others</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<ul class="actionlist">
+<li class="action">
+<div class="actioninfo">
+<h4>系統更新</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<li class="action">
+<div class="actioninfo">
+<h4>軟體更新</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<li class="action">
+<div class="actioninfo">
+<h4>快照備份</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<li class="action">
+<div class="actioninfo">
+<h4>紀錄稽核</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+<div class="notes"><p>匯出本年度八月份人員進出之紀錄以供內部稽核</p></div>
+</div>
+</li>
+</ul>
+</ul>
+</ul>
+</ul>
+</ul>
+</ul>
+<ul class="actionlist">
+<li class="action">
+<ul class="actionlist">
+<li class="action">
+<div class="actioninfo">
+<h4>顧問服務部</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<ul class="actionlist">
+<li class="action">
+<div class="actioninfo">
+<h4>Hardwares</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<ul class="actionlist">
+<li class="action">
+<div class="actioninfo">
+<h4>CPE: Archer C7 v2</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<ul class="actionlist">
+<li class="action">
+<div class="actioninfo">
+<h4>韌體更新</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<li class="action">
+<div class="actioninfo">
+<h4>設定檢視</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<li class="action">
+<div class="actioninfo">
+<h4>密碼修改</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+<li class="action">
+<div class="actioninfo">
+<h4>設定備份</h4>
+<div class="dates">已推迟至 明天，上午9:30 → 到期 明天，下午8:30</div>
+</div>
+</li>
+</ul>
+</body></html>
